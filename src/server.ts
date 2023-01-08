@@ -2,6 +2,7 @@ import mongoose from "mongoose"
 import app from "./app"
 import configs from "./config"
 
+mongoose.set('strictQuery', true);
 mongoose.connect(configs.db.uri) 
 .then(() => {
     console.log("Connected to database...")
