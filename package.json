@@ -25,6 +25,14 @@
     "nodemon": "2.0.19",
     "typescript": "4.5.5"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Euaell/vercel_typeScript_trial.git"
+  },
+  "engines": {
+    "node": "16.13.0",
+    "npm": "8.1.0"
+  },
   "keywords": [],
   "author": "Euael M. Eshete",
   "license": "ISC"
