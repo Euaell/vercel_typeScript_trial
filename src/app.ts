@@ -10,6 +10,7 @@ app.use(express.json())
 
 app.use("/", route.HomeRoute)
 app.use("/api/v1/", route.HomeRoute)
+app.use("/api/v1/user", route.UserRoute)   
 
 app.use(ErrorHandler)
 

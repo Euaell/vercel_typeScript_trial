@@ -1,5 +1,7 @@
 import HomeController from "./Home"
+import UserController from "./User"
 
 export default {
-    HomeController: HomeController
+    HomeController,
+    UserController
 }
