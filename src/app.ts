@@ -9,6 +9,7 @@ app.use(cors())
 app.use(express.json())
 
 app.get("/", route.HomeRoute)
+app.get("/api/v1/", route.HomeRoute)
 
 app.use(ErrorHandler)
 

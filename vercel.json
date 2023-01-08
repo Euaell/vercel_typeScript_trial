@@ -12,6 +12,19 @@
     {
       "src": "/(.*)",
       "dest": "/src/server.ts"
+    },
+    {
+      "src": "/api/(.*)",
+      "dest": "/src/server.ts"
+    },
+    {
+      "src": "/api/v[1-9]/(.*)",
+      "dest": "/src/server.ts"
+    },
+    {
+      "src": "/favicon.ico",
+      "dest": "./public/favicon.ico",
+      "status": 204
     }
   ]
 }
