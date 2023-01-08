@@ -2,7 +2,7 @@ import mongoose from "mongoose"
 import app from "./app"
 import configs from "./config"
 
-mongoose.connect(configs.db.uri)
+mongoose.connect(configs.db.uri) 
 .then(() => {
     console.log("Connected to database...")
     app.listen(configs.port, () => {

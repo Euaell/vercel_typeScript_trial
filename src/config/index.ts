@@ -7,7 +7,7 @@ const config = {
         host: process.env.DB_HOST || 'localhost',
         port: process.env.DB_PORT || 27017,
         name: process.env.DB_NAME || 'test',
-        uri: process.env.DB_URI || 'mongodb://localhost:27017/test'
+        uri: process.env.DB_URI || "mongodb+srv://client2:J9f3Ct0pcV9apOwM@geek.ps9eo.mongodb.net/trail?retryWrites=true&w=majority"
     }
 }
 
