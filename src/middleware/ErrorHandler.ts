@@ -5,5 +5,5 @@ export default async function ErrorHandler( err: Error, req: Request, res: Respo
 	if (res.headersSent) {
 		return next(err)
 	}
-	res.status(500).json({ error: err.message })
+	res.status(504).json({ error: err.message })
 }
