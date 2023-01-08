@@ -10,6 +10,9 @@ app.use(express.json())
 
 app.get("/", route.HomeRoute)
 app.get("/api/v1/", route.HomeRoute)
+app.use("/api/v1/users", route.UserRoute)
+app.use("/api/v1/characters", route.CharactersRoute)
+app.use("/api/v1/episodes", route.EpisodesRoute)
 
 app.use(ErrorHandler)
 
