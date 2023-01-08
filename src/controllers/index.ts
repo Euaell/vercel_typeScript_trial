@@ -4,4 +4,5 @@ import UserController from "./User"
 export default {
     HomeController,
     UserController
+
 }
